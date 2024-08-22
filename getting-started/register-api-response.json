@@ -1,0 +1,19 @@
+{
+    "id": "867a8162-f161-4efd-aaaf-1520ffa99f75",
+    "namespace": "default",
+    "interface": {
+        "id": "f112887e-53be-4677-b427-52ef9014a6a0"
+    },
+    "location": {
+        "address": "0xae1b5868001ec5cbe1ba6005746578cbb1a680ec"
+    },
+    "name": "simple-storage-2",
+    "networkName": "simple-storage-2",
+    "message": "2065a734-7ae5-44ae-b86b-b2bd5053e14d",
+    "urls": {
+        "api": "http://127.0.0.1:5000/api/v1/namespaces/default/apis/simple-storage-2",
+        "openapi": "http://127.0.0.1:5000/api/v1/namespaces/default/apis/simple-storage-2/api/swagger.json",
+        "ui": "http://127.0.0.1:5000/api/v1/namespaces/default/apis/simple-storage-2/api"
+    },
+    "published": true
+}

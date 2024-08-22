@@ -1,0 +1,88 @@
+{
+    "id": "f112887e-53be-4677-b427-52ef9014a6a0",
+    "message": "0815cef7-0c21-4065-9d27-8c01e69e1dc9",
+    "namespace": "default",
+    "name": "SimpleStorage-0",
+    "networkName": "SimpleStorage-0",
+    "description": "",
+    "version": "v1.0.0",
+    "methods": [
+        {
+            "id": "820bc3cd-dbd2-4b9a-88a5-6c6c205c4287",
+            "interface": "f112887e-53be-4677-b427-52ef9014a6a0",
+            "name": "get",
+            "namespace": "default",
+            "pathname": "get",
+            "description": "",
+            "params": [],
+            "returns": [
+                {
+                    "name": "",
+                    "schema": {
+                        "type": "integer",
+                        "details": {
+                            "type": "uint256",
+                            "internalType": "uint256"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "01a69dd7-9ef9-48ed-a748-9a75c9ac3070",
+            "interface": "f112887e-53be-4677-b427-52ef9014a6a0",
+            "name": "set",
+            "namespace": "default",
+            "pathname": "set",
+            "description": "",
+            "params": [
+                {
+                    "name": "newValue",
+                    "schema": {
+                        "type": "integer",
+                        "details": {
+                            "type": "uint256",
+                            "internalType": "uint256"
+                        }
+                    }
+                }
+            ],
+            "returns": []
+        }
+    ],
+    "events": [
+        {
+            "id": "b1ce26f6-ae08-4bf4-a328-b7480726908d",
+            "interface": "f112887e-53be-4677-b427-52ef9014a6a0",
+            "namespace": "default",
+            "pathname": "Changed",
+            "signature": "",
+            "name": "Changed",
+            "description": "",
+            "params": [
+                {
+                    "name": "from",
+                    "schema": {
+                        "type": "string",
+                        "details": {
+                            "type": "address",
+                            "internalType": "address",
+                            "indexed": true
+                        }
+                    }
+                },
+                {
+                    "name": "value",
+                    "schema": {
+                        "type": "integer",
+                        "details": {
+                            "type": "uint256",
+                            "internalType": "uint256"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "published": true
+}

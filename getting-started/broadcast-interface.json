@@ -1,0 +1,73 @@
+{
+    "namespace": "default",
+    "name": "SimpleStorage-0",
+    "version": "v1.0.0",
+    "description": "",
+    "methods": [
+      {
+        "name": "get",
+        "pathname": "",
+        "description": "",
+        "params": [],
+        "returns": [
+          {
+            "name": "",
+            "schema": {
+              "type": "integer",
+              "details": {
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "set",
+        "pathname": "",
+        "description": "",
+        "params": [
+          {
+            "name": "newValue",
+            "schema": {
+              "type": "integer",
+              "details": {
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            }
+          }
+        ],
+        "returns": []
+      }
+    ],
+    "events": [
+      {
+        "name": "Changed",
+        "description": "",
+        "params": [
+          {
+            "name": "from",
+            "schema": {
+              "type": "string",
+              "details": {
+                "type": "address",
+                "internalType": "address",
+                "indexed": true
+              }
+            }
+          },
+          {
+            "name": "value",
+            "schema": {
+              "type": "integer",
+              "details": {
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }

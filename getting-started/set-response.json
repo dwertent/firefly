@@ -1,0 +1,44 @@
+{
+    "id": "5ab0dbe9-98b7-44f8-a330-2431a69e3b59",
+    "namespace": "default",
+    "tx": "20cbf1eb-420e-44a3-89ca-50a61aafe00b",
+    "type": "blockchain_invoke",
+    "status": "Pending",
+    "plugin": "ethereum",
+    "input": {
+        "input": {
+            "newValue": 3
+        },
+        "interface": "f112887e-53be-4677-b427-52ef9014a6a0",
+        "key": "0x5fc3251ebbb0df311dccc616d622380949afc006",
+        "location": {
+            "address": "0xae1b5868001ec5cbe1ba6005746578cbb1a680ec"
+        },
+        "method": {
+            "description": "",
+            "id": "01a69dd7-9ef9-48ed-a748-9a75c9ac3070",
+            "interface": "f112887e-53be-4677-b427-52ef9014a6a0",
+            "name": "set",
+            "namespace": "default",
+            "params": [
+                {
+                    "name": "newValue",
+                    "schema": {
+                        "details": {
+                            "internalType": "uint256",
+                            "type": "uint256"
+                        },
+                        "type": "integer"
+                    }
+                }
+            ],
+            "pathname": "set",
+            "returns": []
+        },
+        "methodPath": "set",
+        "options": null,
+        "type": "invoke"
+    },
+    "created": "2024-08-22T15:31:12.519898Z",
+    "updated": "2024-08-22T15:31:12.519898Z"
+}

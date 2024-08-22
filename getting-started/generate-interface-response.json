@@ -1,0 +1,110 @@
+{
+    "namespace": "default",
+    "name": "generated",
+    "description": "",
+    "version": "0.0.1",
+    "methods": [
+        {
+            "name": "get",
+            "namespace": "default",
+            "pathname": "get",
+            "description": "",
+            "params": [],
+            "returns": [
+                {
+                    "name": "",
+                    "schema": {
+                        "oneOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "integer"
+                            }
+                        ],
+                        "details": {
+                            "type": "uint256",
+                            "internalType": "uint256"
+                        },
+                        "description": "An integer. You are recommended to use a JSON string. A JSON number can be used for values up to the safe maximum."
+                    }
+                }
+            ],
+            "details": {
+                "stateMutability": "view"
+            }
+        },
+        {
+            "name": "set",
+            "namespace": "default",
+            "pathname": "set",
+            "description": "",
+            "params": [
+                {
+                    "name": "newValue",
+                    "schema": {
+                        "oneOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "integer"
+                            }
+                        ],
+                        "details": {
+                            "type": "uint256",
+                            "internalType": "uint256"
+                        },
+                        "description": "An integer. You are recommended to use a JSON string. A JSON number can be used for values up to the safe maximum."
+                    }
+                }
+            ],
+            "returns": [],
+            "details": {
+                "stateMutability": "nonpayable"
+            }
+        }
+    ],
+    "events": [
+        {
+            "namespace": "default",
+            "pathname": "Changed",
+            "signature": "",
+            "name": "Changed",
+            "description": "",
+            "params": [
+                {
+                    "name": "from",
+                    "schema": {
+                        "type": "string",
+                        "details": {
+                            "type": "address",
+                            "internalType": "address",
+                            "indexed": true
+                        },
+                        "description": "A hex encoded set of bytes, with an optional '0x' prefix"
+                    }
+                },
+                {
+                    "name": "value",
+                    "schema": {
+                        "oneOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "integer"
+                            }
+                        ],
+                        "details": {
+                            "type": "uint256",
+                            "internalType": "uint256"
+                        },
+                        "description": "An integer. You are recommended to use a JSON string. A JSON number can be used for values up to the safe maximum."
+                    }
+                }
+            ]
+        }
+    ],
+    "published": false
+}
